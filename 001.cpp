@@ -12,11 +12,11 @@ vector<int> twosum(vector<int>& nums, int target)
 		{
 			if (nums[i] + nums[j] == target)
 			{
-				return { i,j };//不用提前定大小，直接返回即可
+				return { i,j };//涓嶇敤鎻愬墠瀹氬ぇ灏忥紝鐩存帴杩斿洖鍗冲彲
 			}
 		}
 	}
-	return {};//可返回一个空vector
+	return {};//鍙繑鍥炰竴涓┖vector
 }
 
 int main()
